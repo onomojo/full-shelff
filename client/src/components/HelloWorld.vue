@@ -41,6 +41,20 @@ export default {
     junk () {
       const { error } = null
       return true;
+    },
+    junk () {
+      const { error } = null
+      return true;
+    },
+    bleh () {
+      return true;
+      let x = y;
+    },
+    boop () {
+      if (false) {
+        return false;
+      }
+      return true;
     }
   }
 };
